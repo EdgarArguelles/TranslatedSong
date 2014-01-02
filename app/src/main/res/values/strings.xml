@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">Translated Song</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="song_info">Song Info</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="track">Track</string>
 
 </resources>
