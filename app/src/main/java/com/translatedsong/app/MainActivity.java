@@ -46,7 +46,11 @@ public class MainActivity extends Activity {
         }
     }
 
+    /**
+     * Esta funcion se llama cada vez que se cambia una cancion
+     */
     public void onChangeSong() {
+        //muestra los datos de la cancion actual
         TextView text = (TextView) findViewById(R.id.song_info);
         text.setText(getString(R.string.artist) + " : " + songManager.getMetadata().get("artist") + "\n" +
                 getString(R.string.album) + " : " + songManager.getMetadata().get("album") + "\n" +
